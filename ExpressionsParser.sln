@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expressions", "Expression\Expressions.csproj", "{18F95321-CA67-481A-B88B-FFA3E48B9522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expressions.Test", "Expressions.Test\Expressions.Test.csproj", "{AD5CA8D5-7885-4222-A74E-C64F71CD0458}"
+	ProjectSection(ProjectDependencies) = postProject
+		{18F95321-CA67-481A-B88B-FFA3E48B9522} = {18F95321-CA67-481A-B88B-FFA3E48B9522}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18F95321-CA67-481A-B88B-FFA3E48B9522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F95321-CA67-481A-B88B-FFA3E48B9522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F95321-CA67-481A-B88B-FFA3E48B9522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F95321-CA67-481A-B88B-FFA3E48B9522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD5CA8D5-7885-4222-A74E-C64F71CD0458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5CA8D5-7885-4222-A74E-C64F71CD0458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5CA8D5-7885-4222-A74E-C64F71CD0458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5CA8D5-7885-4222-A74E-C64F71CD0458}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B1F3E24-0186-484B-B925-32F7362B0E37}
+	EndGlobalSection
+EndGlobal
